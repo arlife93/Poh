@@ -29,3 +29,13 @@ dist-ssr
 
 .env
 .vite
+
+node_modules/
+dist/
+.npm-cache/
+.env
+.env.local
+.env.*.local
+*.log
+
+.tools/
