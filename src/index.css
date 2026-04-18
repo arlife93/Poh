@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-prompt: 'Prompt', sans-serif;
+    --background: 250 15% 8%;
+    --foreground: 0 0% 96%;
+    --card: 250 15% 12%;
+    --card-foreground: 0 0% 96%;
+    --popover: 250 15% 12%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 280 80% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 250 15% 18%;
+    --secondary-foreground: 0 0% 90%;
+    --muted: 250 12% 16%;
+    --muted-foreground: 250 8% 55%;
+    --accent: 330 80% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 250 12% 20%;
+    --input: 250 12% 20%;
+    --ring: 280 80% 60%;
+    --chart-1: 280 80% 60%;
+    --chart-2: 330 80% 55%;
+    --chart-3: 200 70% 50%;
+    --chart-4: 45 80% 55%;
+    --chart-5: 150 60% 45%;
+    --radius: 0.75rem;
+    --sidebar-background: 250 15% 8%;
+    --sidebar-foreground: 0 0% 96%;
+    --sidebar-primary: 280 80% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 250 15% 18%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 250 12% 20%;
+    --sidebar-ring: 280 80% 60%;
+  }
+
+  .dark {
+    --background: 250 15% 8%;
+    --foreground: 0 0% 96%;
+    --card: 250 15% 12%;
+    --card-foreground: 0 0% 96%;
+    --popover: 250 15% 12%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 280 80% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 250 15% 18%;
+    --secondary-foreground: 0 0% 90%;
+    --muted: 250 12% 16%;
+    --muted-foreground: 250 8% 55%;
+    --accent: 330 80% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 250 12% 20%;
+    --input: 250 12% 20%;
+    --ring: 280 80% 60%;
+    --chart-1: 280 80% 60%;
+    --chart-2: 330 80% 55%;
+    --chart-3: 200 70% 50%;
+    --chart-4: 45 80% 55%;
+    --chart-5: 150 60% 45%;
+    --sidebar-background: 250 15% 8%;
+    --sidebar-foreground: 0 0% 96%;
+    --sidebar-primary: 280 80% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 250 15% 18%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 250 12% 20%;
+    --sidebar-ring: 280 80% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-prompt;
+  }
+}
